@@ -23,6 +23,9 @@ body {
 .align-items-center{
     align-items: center
 }
+.clientes-header{
+    background-image: url(../img/about.JPG)
+}
 hr {
     border-color: #F58426;
     border-width: 3px;
