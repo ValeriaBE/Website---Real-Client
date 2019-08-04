@@ -23,9 +23,12 @@ body {
 .align-items-center{
     align-items: center
 }
-.clientes-header{
-    background-image: url(../img/about.JPG)
+.white{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold
 }
+
 hr {
     border-color: #F58426;
     border-width: 3px;
@@ -323,7 +326,10 @@ header {
     background-image: url('../img/empresa/header.jpg');
     height: 500px
 }
-
+.nicaragua-header{
+    background-image: url('../img/nicaragua/header.jpg');
+    height: 500px
+}
 .servicios-header {
     background-image: url('../img/servicios/header.jpg');
     height: 500px
@@ -374,7 +380,8 @@ header .header-content .header-content-inner p {
     }
     .empresa-header,
     .servicios-header,
-    .contacto-header {
+    .contacto-header,
+    .nicaragua-header {
         min-height: 500px
     }
     header .header-content {
