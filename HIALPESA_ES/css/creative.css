@@ -23,6 +23,21 @@ body {
 .align-items-center{
     align-items: center
 }
+.inicio{
+    flex-direction: row;
+}
+.m-3{
+    margin: 70px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.inicio3{
+    flex-direction: column;
+}
+.inicio2{
+    flex-direction: row;
+    justify-content: space-between;
+}
 .white{
     color: white;
     font-family: 'Open Sans', sans-serif;
@@ -725,6 +740,9 @@ body {
         /* = width for a 1:1 aspect ratio */
         overflow: hidden;
     }
+    .inicio{
+        flex-direction: column;
+    }
 }
 
 
@@ -736,6 +754,9 @@ body {
         padding-bottom: 50%;
         /* = width for a 1:1 aspect ratio */
         overflow: hidden;
+    }
+    .inicio{
+        flex-direction: column;
     }
 }
 
