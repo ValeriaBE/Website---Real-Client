@@ -761,6 +761,9 @@ body {
     .inicio{
         flex-direction: column;
     }
+    .imgwidth{
+        width: 80%
+    }
 }
 
 
@@ -775,6 +778,9 @@ body {
     }
     .inicio{
         flex-direction: column;
+    }
+    .imgwidth{
+        width: 80%
     }
 }
 
