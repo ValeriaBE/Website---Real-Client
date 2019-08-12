@@ -29,6 +29,9 @@ body {
 .align-items-center{
     align-items: center
 }
+.back-white{
+background-color: white;
+}
 .inicio{
     flex-direction: row;
 }
