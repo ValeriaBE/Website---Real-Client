@@ -133,8 +133,8 @@ p {
     margin-left: auto;
     width: 70%;
     text-align: center;
-    padding-bottom: 27px;
-    padding-top: 27px;
+    /* padding-bottom: 27px;
+    padding-top: 27px; */
 }
 .video{
     width: 80%;
