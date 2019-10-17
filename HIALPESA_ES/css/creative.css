@@ -120,7 +120,9 @@ p {
     color: rgba(0, 0, 0, 0.7);
     text-align: justify
 }
-
+.pl-0{
+    padding-left: 0;
+}
 .lightbrown {
     color: #9f9389
 }
