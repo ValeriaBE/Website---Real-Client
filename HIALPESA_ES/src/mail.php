@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['send_message_btn'])){
-    $to = 'valeberroc@gmail.com';
+    $to = 'info@hialpesa.com';
     $name = $_POST["name"];
     $email= $_POST["email"];
     $text= $_POST["message"];
