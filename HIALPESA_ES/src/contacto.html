@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>HIALPESA S.A</title>
-        <!-- Bootstrap Core CSS -->
-        <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <!-- Custom Fonts -->
-        <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
-        <!-- Plugin CSS -->
-        <link href="../vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-        <link rel="stylesheet" href="../css/animate.css">
-        <!-- Theme CSS -->
-        <link href="../css/creative.css" rel="stylesheet">
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>HIALPESA S.A</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+    <!-- Plugin CSS -->
+    <link href="../vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/animate.css">
+    <!-- Theme CSS -->
+    <link href="../css/creative.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-    </head>
+</head>
 
 <body id="page-top">
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
@@ -50,8 +51,10 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <div class="address-bar"><div class="container"><span class="orange">D:</span> <span style="margin-right: 10px">Av. Las Lomas 801 - Zárate - San Juan de Lurigancho</span> <span class="orange">T:</span><span> (511) 3162030 | (511) 3192040</span></div></div>
-    
+    <div class="address-bar">
+        <div class="container"><span class="orange">D:</span> <span style="margin-right: 10px">Av. Las Lomas 801 - Zárate - San Juan de Lurigancho</span> <span class="orange">T:</span><span> (511) 3192030 | (511) 3192040</span></div>
+    </div>
+
     <header class="contacto-header">
         <div class="header-content">
             <div class="header-content-inner">
@@ -59,7 +62,7 @@
                     <h1 class="semibold">Contacto</h1>
                     <h1 class="homeHeading"><strong>Fabricando</strong> hilos, así como tejidos y prendas de punto.</h1>
                 </div>
-                
+
             </div>
         </div>
     </header>
@@ -68,13 +71,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    
+
                     <div class="col-md-6">
-                        <p class="lightbrown">Contacte con nosotros, asegure de ingresar todas sus dudas, así como sus datos personales correctamente. 
+                        <p class="lightbrown">Contacte con nosotros, asegure de ingresar todas sus dudas, así como sus datos personales correctamente.
                         </p>
-                        
-                        <div class="form-area">  
-                            <form role="form">
+
+                        <div class="form-area">
+                            <form role="form" id="myForm" action="https://formspree.io/valeberroc@gmail.com" method="POST">
                                 <br style="clear:both">
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required>
@@ -83,36 +86,33 @@
                                     <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Teléfono" required>
-                                </div>
-                                <div class="form-group">
-                                <textarea class="form-control" type="textarea" id="message" placeholder="Mensaje" maxlength="140" rows="7"></textarea>
+                                    <textarea class="form-control" type="textarea" name="message" id="message" placeholder="Mensaje" maxlength="140" rows="7"></textarea>
                                 </div>
 
-                                <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Enviar</button>
+                                <button type="submit" value="Send" id="submit" name="submit" class="btn btn-primary pull-right">Enviar</button>
                             </form>
                         </div>
-                    
-                        
+
+
                     </div>
-                    
-                    
+
+
                     <div class="col-md-6">
-                    
+
                         <center><img src="../img/contacto/maquinas.jpg" class="img-responsive"></center>
 
-                        
+
                     </div>
-                    
-                    
-                   
+
+
+
                 </div>
             </div>
         </div>
     </section>
 
 
-     <footer class="bg-dark">
+    <footer class="bg-dark">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -139,7 +139,7 @@
                     <br> Oficina Central: Av. Las Limas 801 - Zarate - San Juan de Lurigancho
                     <br> Teléfono: (511) 319 2030
                     <br> Email: info@hialpesa.com
-                    <br> 
+                    <br>
                 </div>
             </div>
         </div>
